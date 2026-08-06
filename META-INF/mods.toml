@@ -1,0 +1,21 @@
+modLoader="lowcodefml"
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="wol2"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+displayName="Wolf"
+description='''
+Wolf
+'''
+
+[[dependencies.wol2]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4.5.8,)"
+ordering = "NONE"
+side = "BOTH"

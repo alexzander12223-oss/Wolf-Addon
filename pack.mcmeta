@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "wol2",
+        "pack_format": 15,
+        "description": "Wolf",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}

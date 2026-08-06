@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "Wolf"
+    ],
+    "environment": "*",
+    "id": "wol2",
+    "version": "1.0.0",
+    "name": "Wolf",
+    "description": "Wolf",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}
