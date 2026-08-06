@@ -1,0 +1,32 @@
+{
+    "name": "Electro Guy",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/diamond_block.png",
+    "icon": "minecraft:chest",
+    "gui_display_type": "tree",
+    "abilities": {
+        "test_dummy": {
+            "type": "palladium:dummy",
+            "icon": "minecraft:egg",
+            "title": "Test",
+            "bar_color": "green",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": [0, 0],
+            "description": "null",
+            "conditions": {
+                "enabling": [
+                                        {
+                                            "type": "palladium:action",
+                                            "cooldown": 0,
+                                            "key_type": "key_bind",
+                                            "needs_empty_hand": false,
+                                            "allow_scrolling_when_crouching": true
+                                        }
+                ],
+                "unlocking": []
+            }
+        }
+    }
+}
