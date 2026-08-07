@@ -21,5 +21,24 @@
             -10,
             0
         ]
+    },
+ {
+    "abilities" :{
+        "type": "palladium:aim",
+        "icon": "minecraft:blaze_rod",
+        "title": "null",
+        "bar_color": "light_gray",
+        "hidden": false,
+        "hidden_in_bar": false,
+        "list_index": -1,
+        "gui_position": "null",
+        "description": "null",
+        "time": 10,
+        "arm": "main_arm",
+        "conditions": {
+            "enabling": [],
+            "unlocking": []
+        }
     }
+ }
 ]
