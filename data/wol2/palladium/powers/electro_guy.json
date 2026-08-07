@@ -12,7 +12,7 @@
             "bar_color": "light_gray",
             "hidden": false,
             "hidden_in_bar": false,
-            "list_index": -1,
+            "list_index": 3,
             "gui_position": [0, 0],
             "description": "suut",
             "energy_beam": "wol2:tt",
@@ -27,13 +27,41 @@
             "commands_on_entity_hit": [],
             "conditions": {
                 "enabling": [
-                                {
-                                    "type": "palladium:held",
+                                        {
+                                            "type": "palladium:held",
+                                            "cooldown": 0,
+                                            "key_type": "right_click",
+                                            "needs_empty_hand": false
+                                        }
+                ],
+                "unlocking": [
+                                        {
+                                            "type": "palladium:ability_type_enabled",
+                                            "ability_type": "palladium:aim"
+                                        }
+                ]
+            }
+        },
+        "ww": {
+            "type": "palladium:aim",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 4,
+            "gui_position": "null",
+            "description": "null",
+            "time": 10,
+            "arm": "right_arm",
+            "conditions": {
+                "enabling": [                {
+                                    "type": "palladium:toggle",
                                     "cooldown": 0,
                                     "key_type": "key_bind",
-                                    "needs_empty_hand": false
-                                }
-                ],
+                                    "needs_empty_hand": false,
+                                    "allow_scrolling_when_crouching": true
+                                }],
                 "unlocking": []
             }
         }
