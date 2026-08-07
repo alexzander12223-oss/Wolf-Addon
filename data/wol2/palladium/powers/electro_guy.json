@@ -61,7 +61,8 @@
                                     "key_type": "key_bind",
                                     "needs_empty_hand": false,
                                     "allow_scrolling_when_crouching": true
-                                }],
+                                }
+                            ],
                 "unlocking": []
             }
         }
