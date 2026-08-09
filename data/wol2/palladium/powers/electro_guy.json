@@ -15,7 +15,7 @@
             "list_index": 1,
             "gui_position": "null",
             "description": "null",
-            "texture": "wol2:texture/texture_skin/super_heroe_suit.png",
+            "texture": "wol2:texture/texture_skin/super_heroe_suit_3.0.png",
             "model_type": "keep",
             "priority": 50,
             "conditions": {
@@ -121,6 +121,26 @@
                         "ability_type": "palladium:skin_change"
                     }
                 ]
+            }
+        },
+        "wvv": {
+            "type": "palladium:show_both_arms",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_type_enabled",
+                        "ability_type": "palladium:skin_change"
+                    }
+                ],
+                "unlocking": []
             }
         }
     }
