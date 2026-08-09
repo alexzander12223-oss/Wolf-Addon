@@ -5,7 +5,7 @@
     "icon": "minecraft:chest",
     "gui_display_type": "tree",
     "abilities": {
-        "hh": {
+        "oo": {
             "type": "palladium:skin_change",
             "icon": "minecraft:blaze_rod",
             "title": "null",
@@ -29,6 +29,31 @@
                     }
                 ],
                 "unlocking": []
+            }
+        },
+        "nn": {
+            "type": "palladium:name_change",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "name": {
+                "text": "John Doe"
+            },
+            "conditions": {
+                "type": "palladium:ability",
+                "ability": "palladium:skin_change",
+                "enabling": [],
+                "unlocking": [
+                    {
+                        "type": "palladium:ability_type_enabled",
+                        "ability_type": "palladium:skin_change"
+                    }
+                ]
             }
         },
         "TT": {
