@@ -15,7 +15,7 @@
             "list_index": 1,
             "gui_position": "null",
             "description": "null",
-            "texture": "wol2:texture/texture_skin/bbbbbb.png",
+            "texture": "wol2:texture/texture_skin/super_heroe_suit.png",
             "model_type": "keep",
             "priority": 50,
             "conditions": {
@@ -42,7 +42,7 @@
             "gui_position": "null",
             "description": "null",
             "name": {
-                "text": "John Doe"
+                "text": "Walking armour"
             },
             "conditions": {
                 "type": "palladium:ability",
@@ -106,15 +106,21 @@
             "time": 10,
             "arm": "right_arm",
             "conditions": {
-                "enabling": [                {
-                                    "type": "palladium:toggle",
-                                    "cooldown": 0,
-                                    "key_type": "key_bind",
-                                    "needs_empty_hand": false,
-                                    "allow_scrolling_when_crouching": true
-                                }
-                            ],
-                "unlocking": []
+                "enabling": [
+                    {
+                        "type": "palladium:toggle",
+                        "cooldown": 0,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+                ],
+                "unlocking": [
+                    {
+                        "type": "palladium:ability_type_enabled",
+                        "ability_type": "palladium:skin_change"
+                    }
+                ]
             }
         }
     }
