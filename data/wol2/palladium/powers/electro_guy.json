@@ -5,6 +5,32 @@
     "icon": "minecraft:chest",
     "gui_display_type": "tree",
     "abilities": {
+        "hh": {
+            "type": "palladium:skin_change",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": "null",
+            "description": "null",
+            "texture": "wol2:texture/texture_skin/bbbbbb.png",
+            "model_type": "keep",
+            "priority": 50,
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:toggle",
+                        "cooldown": 0,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+                ],
+                "unlocking": []
+            }
+        },
         "TT": {
             "type": "palladium:energy_beam",
             "icon": "minecraft:blaze_rod",
